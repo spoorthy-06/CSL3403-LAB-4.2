@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>VERSION CONTROL SYSTEM</title>
+       <link href="style-2.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>VERSION CONTROL SYSTEM</h1>
+        <div>
+            <h2>Version control systems are a category of software tools that helps record changes to files by keeping a track of modifications done to the code.</h2>
+            <img src="VCS.png" width="100">
+            <h3>Use of Version Control System - </h3>
+            <ul>
+                <li><b>A repository:</b> It can be thought as a database of changes. It contains all the edits and historical versions of the project</li>
+                <li><b>Copy of Work:</b>  It is the personal copy of all the files in a project. You can edit to this copy, without affecting the work of others and you can finally commit your changes to a repository when you are done making your changes.</li>
+            </ul>
+            
+        </div>
+
+        <div>
+            <h2>TYPES OF VERSION CONTROL SYSTEMS</h2>
+            <UL>
+                <li><B>Local Version Control Systems</B></li>
+                <img src="LVCS.png" width="150">
+                <p>Many people’s version-control method of choice is to copy files into another directory (perhaps a time-stamped directory, if they’re clever). This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to.
+                    To deal with this issue, programmers long ago developed local VCSs that had a simple database that kept all the changes to files under revision control.</p>
+                <li><B>Centralized Version Control Systems</B></li>
+                <img src="CVCS.png" width="150">
+                <p>The next major issue that people encounter is that they need to collaborate with developers on other systems. To deal with this problem, Centralized Version Control Systems (CVCSs) were developed. These systems (such as CVS, Subversion, and Perforce) have a single server that contains all the versioned files, and a number of clients that check out files from that central place. For many years, this has been the standard for version control.</p>
+                <li><B>Distributed Version Control Systems</B></li>
+                <img src="DVCS.png" width="150">
+                <p>This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.</p>
+            </UL>
+        </div>
+        <div>
+            <h2><b>GIT - COMMIT, FORK, PUSH</b></h2>
+            <ul>
+                <li><b>COMMIT :</b> The "commit" command is used to save your changes to the local repository. Note that you have to explicitly tell Git which changes you want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed.</li>
+                <li><b>PUSH :</b>Basically git push implicitly pushes to your work to a remote repository, with the assumption that it already exists. By default this remote repository is the origin. In case of git push origin, it explicitly specifies to be pushed into a repository called origin.</li>
+                <li><b>FORK :</b>Git Fork is a simple process in GitHub and it does not require to use any git command. The process of Git Fork follows the below steps: Fork a Repository: User creates a copy of the repository to their own GitHub account, the steps for the same are covered in the next section.</li>
+            </ul>
+        </div>
+    </body>
+</html>

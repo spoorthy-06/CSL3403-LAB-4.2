@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+    font-style: italic;
+}
+div{
+    background-color: lightcoral;
+    font-style: italic;
+    text-decoration-color: mediumblue;
+}
+h1{
+    text-align: center;
+}
+image{
+    align-items: center;
+}
